@@ -1,5 +1,5 @@
-Progam Ganjil Genap
-print("===Program Cek Ganjil Genap===")
+# Program Ganjil Genap
+print("===Program Cek Ganjil Genap===") 
 angka = int(input("Masukkan sebuah bilangan bulat: "))
 
 if angka % 2 == 0:
@@ -21,4 +21,4 @@ elif NilaiAngka >= 40:
 else:
     NilaiHuruf = 'E'
 
-print(f"Nilai Anda {NilaiAngka}, mendapatkan Indeks Nilai: {NilaiHuruf}")
+print(f"Nilai {NilaiAngka} = {NilaiHuruf}")
